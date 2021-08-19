@@ -1,4 +1,4 @@
-# PSL - PythonScryptLauncher
+# PSL - PythonScriptLauncher
 
 ![CLI](https://raw.githubusercontent.com/zellko/PSL-PythonScryptLauncher/main/Documentation/img.png)
 
