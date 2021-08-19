@@ -1,6 +1,6 @@
 # PSL - PythonScriptLauncher
 
-![CLI](/home/zellkoss/Documents/python_programming/PSL-PythonScriptLauncher/Documentation/cli.png)
+![CLI](https://raw.githubusercontent.com/zellko/PSL-PythonScriptLauncher/main/Documentation/cli.png)
 
 _WORK IN PROGRESS - My goal is to develop this project in parallel of my Python lessons_
 
