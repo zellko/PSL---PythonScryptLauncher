@@ -18,8 +18,8 @@ quite_program = False
 
 while not quite_program:
     info = ""
-    user_input = input(f"Type 1 to {len(data.script_data['name'])} to launch corresponding script."
-                       f"\nType 'add' to add a new script, 'remove' to remove a script, 'q' to quit ")
+    user_input = input(f"Type 1 to {len(data.script_data['name'])} to launch corresponding application."
+                       f"\nType 'add' to add new application, 'remove' to remove application, 'q' to quit ")
 
     if user_input.lower() == "q":
         quite_program = True
