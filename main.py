@@ -1,4 +1,5 @@
 import os
+import subprocess
 from data import Data
 from art import logo
 
@@ -15,16 +16,16 @@ data = Data()
 clear_screen()
 
 quite_program = False
-
 while not quite_program:
     info = ""
+
     user_input = input(f"Type 1 to {len(data.script_data['name'])} to launch corresponding application."
                        f"\nType 'add' to add new application, 'remove' to remove application, 'q' to quit ")
 
     if user_input.lower() == "q":
         quite_program = True
     elif user_input.lower() == "add":
-        data.add_to_csv()
+        info = data.add_to_csv()
     elif user_input.lower() == "remove":
         data.remove_to_csv()
     elif not user_input.isnumeric():
@@ -43,4 +44,3 @@ while not quite_program:
 # TODO Clean Up
 # TODO Add comments
 # TODO Simplify removing process?
-# TODO Remove Pandas and use JSON
