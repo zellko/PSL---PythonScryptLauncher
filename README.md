@@ -31,7 +31,7 @@ Coming soon
 
 ## Installation guide - Python3
 Coming soon
-
+***
 ## How to use it
 
 #### Adding a script:
@@ -42,7 +42,7 @@ Coming soon
 
 Your new application is now added to you list of applications!
 ![AddScript](https://raw.githubusercontent.com/zellko/PSL-PythonScriptLauncher/main/Documentation/add_s.png)
-
+***
 #### Adding a command:
 ![AddCommand](https://raw.githubusercontent.com/zellko/PSL-PythonScriptLauncher/main/Documentation/add_c_0.png)
 1. Type AddC
@@ -52,14 +52,14 @@ Your new application is now added to you list of applications!
 Note: When creating a command, it will be converted to a script. The script will be created on the same folder PythonScriptLauncher
 
 Your new application is now added to you list of applications!
-
+***
 #### Removing an app:
 ![AddCommand](https://raw.githubusercontent.com/zellko/PSL-PythonScriptLauncher/main/Documentation/remove_0.png)
 1. Type remove
 2. Enter the application number: e.g.: `6`
 
 The application is now removed!
-
+***
 ### Tested on:
 - Pop!_OS 21.04
 
