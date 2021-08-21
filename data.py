@@ -22,7 +22,7 @@ class Data:
 
     def add_script_to_csv(self):
         """Add a script to the CSV file"""
-        path = input("Enter script path or command: ")
+        path = input("Enter the script path: ")
         name = input("Enter the name of the application: ")
 
         if len(path) == 0 or len(name) == 0:
